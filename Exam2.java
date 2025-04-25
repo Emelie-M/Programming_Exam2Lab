@@ -59,9 +59,9 @@ public class Exam2
         //Question 26 done by me
         //System.out.println(Collections.max(temperatures));
         
-        //Question 27 done by me
+        //Question 27 done bye teacher
         //Collections.sort(temperatures); //sort the temperature inputs
-        //System.out.println(temperatures); //gets last temperature
+        //System.out.println(temperatures.getLast()); //gets last temperature
         
     }
 }
