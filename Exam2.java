@@ -45,23 +45,23 @@ public class Exam2
         double max = 0;
         double i = 0;
         
-        /* (Double temp : temperatures){
+        /*for(Double temp : temperatures){
             if(temp > 37.5){
                 i++;
             }
             if(temp > max){
                 max = temp;
             }
-        }
+        }*/
         System.out.println(i);
-        System.out.println(max);*/
+        System.out.println(max);
         
         //Question 26
-        System.out.println(Collections.max(temperatures));
+        //System.out.println(Collections.max(temperatures));
         
         //Question 27
-        //temperatur.sort; //sort the temperature inputs
-        //System.out.println(temperature.sort(lastvalue)); //gets last temperature
+        Collections.sort(temperatures); //sort the temperature inputs
+        System.out.println(temperatures); //gets last temperature
         
     }
 }
