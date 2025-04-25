@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Write a description of class Exam2 here.
@@ -7,13 +8,21 @@
  */
 public class Exam2
 {
-
     /**
      * Constructor for objects of class Exam2
      */
     public Exam2()
     {
+        ArrayList<Double> temperatures = new ArrayList<Double>();
         
+        temperatures.add(26.5);
+        temperatures.add(37.7);
+        temperatures.add(42.1);
+        temperatures.add(12.9);
+        temperatures.add(64.3);
+        temperatures.add(39.9);
+        
+        feverTemp(temperatures);
     }
 
     /**
@@ -30,13 +39,15 @@ public class Exam2
     /**
      * Question 25
      */
-    public void feverTemp(double temperature)
+    public void feverTemp(ArrayList<Double> temperatures)
     {
-        //ArrayList<double> arrayList = new arrayList<double>;
-        /*for each (int i = 0; temperature > 37.5; i++){
+        double max = 0;
+        
+        /*for (int i = 0; temperatures > 37.5 ; i++){
             System.out.println(i);
-            System.out.println(temperature);
+            System.out.println(temperatures);
         }*/
+        
         
         //Question 26
         //System.out.println(temperature.max);
