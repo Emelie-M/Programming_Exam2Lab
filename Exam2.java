@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.*;
 
 /**
  * Write a description of class Exam2 here.
@@ -42,15 +43,21 @@ public class Exam2
     public void feverTemp(ArrayList<Double> temperatures)
     {
         double max = 0;
+        double i = 0;
         
-        /*for (int i = 0; temperatures > 37.5 ; i++){
-            System.out.println(i);
-            System.out.println(temperatures);
-        }*/
-        
+        /* (Double temp : temperatures){
+            if(temp > 37.5){
+                i++;
+            }
+            if(temp > max){
+                max = temp;
+            }
+        }
+        System.out.println(i);
+        System.out.println(max);*/
         
         //Question 26
-        //System.out.println(temperature.max);
+        System.out.println(Collections.max(temperatures));
         
         //Question 27
         //temperatur.sort; //sort the temperature inputs
