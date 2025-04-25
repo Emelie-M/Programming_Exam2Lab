@@ -24,7 +24,7 @@ public class Exam2
         String myStr1 = "Hello";
         String myStr2 = "Byebye";
         
-        //String myStr1.equals(myStr2); //outputs false
+        System.out.println(myStr1.equals(myStr2)); //outputs false
     }
     
     /**
