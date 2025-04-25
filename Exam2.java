@@ -27,7 +27,7 @@ public class Exam2
     }
 
     /**
-     *Question 24
+     *Question 24 done by me
      */
     public void equalString()
     {
@@ -38,30 +38,30 @@ public class Exam2
     }
     
     /**
-     * Question 25
+     * Question 25 done by teacher
      */
     public void feverTemp(ArrayList<Double> temperatures)
     {
         double max = 0;
         double i = 0;
         
-        /*for(Double temp : temperatures){
+        for(Double temp : temperatures){
             if(temp > 37.5){
                 i++;
             }
             if(temp > max){
                 max = temp;
             }
-        }*/
+        }
         System.out.println(i);
         System.out.println(max);
         
-        //Question 26
+        //Question 26 done by me
         //System.out.println(Collections.max(temperatures));
         
-        //Question 27
-        Collections.sort(temperatures); //sort the temperature inputs
-        System.out.println(temperatures); //gets last temperature
+        //Question 27 done by me
+        //Collections.sort(temperatures); //sort the temperature inputs
+        //System.out.println(temperatures); //gets last temperature
         
     }
 }
